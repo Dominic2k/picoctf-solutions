@@ -52,7 +52,7 @@ Each challenge folder contains:
 
 ## 🔗 Let's Connect!
 
-I also share writeups and insights on [LinkedIn](https://www.linkedin.com/in/your-profile). Feel free to connect!
+I also share writeups and insights on [LinkedIn](https://www.linkedin.com/in/dominic2k/). Feel free to connect!
 
 ---
 
