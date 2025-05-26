@@ -15,21 +15,29 @@
 
 ---
 
-## 🧠 Objective
+## 🎯 Objective
 
-Connect to the remote server using SSH to retrieve a flag. This is a basic exercise in using SSH securely and properly.
-
----
-
-## 💡 Strategy
-
-1. Use the `ssh` command with the username `ctf-player`, host `titan.picoctf.net`, and the given port.
-2. When prompted, enter the provided password.
-3. Once logged in, look for the flag using basic Linux commands like `ls`, `cat`, `pwd`, etc.
+Kết nối SSH để truy cập máy chủ từ xa và tìm flag.
 
 ---
 
-## 💻 Commands Used
+## 🧠 Strategy
+
+1. Dùng lệnh `ssh` để kết nối với server.
+2. Nhập mật khẩu.
+3. Dùng các lệnh cơ bản trong shell như `ls`, `cat`, `cd`, v.v.
+4. Tìm và đọc file chứa flag.
+
+---
+
+## 💻 Commands & Execution Log
 
 ```bash
-ssh ctf-player@titan.picoctf.net -p 64616
+$ ssh ctf-player@titan.picoctf.net -p 64616
+Password: 1ad5be0d
+
+$ ls
+flag.txt
+
+$ cat flag.txt
+picoCTF{5sh_i5_5uP3r_Us3fu1!}
